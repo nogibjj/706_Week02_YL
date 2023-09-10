@@ -1,10 +1,9 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 def gen_stats():
     df = pd.read_csv("wine.csv")
+    print(df.describe())
 
     # calculate the median/mean/standard deviation for the log wine prices
     price_median = df["price"].dropna().median()
@@ -14,12 +13,11 @@ def gen_stats():
     print("The mean log price for wine is "+str(price_mean))
     print("The standard deviation log price for wine is "+str(price_sd))
 
-    # visualization 1: histogram for log wine price
-    plt.hist(df, bins=5, edgecolor="k")
-    plt.xlabel("Median log wine price")
+    # visualization : histogram for log wine price
+    plt.hist(df["price"], bins=5, edgecolor="k")
+    plt.xlabel("Log wine price")
     plt.ylabel("Frequency")
-    plt.title("Frequency distribution of median log wine price")
-
+    plt.title("Frequency distribution of log wine price")
     plt.show()
 
     return price_median, price_mean, price_sd
