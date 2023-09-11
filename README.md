@@ -30,4 +30,4 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 ## Summary statistics
 
-Sea `report.md` for details.
+See `report.md` for details.
