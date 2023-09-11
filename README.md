@@ -26,7 +26,11 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 2. make lint
 
+![Alt text](image-2.png)
+
 3. make test
+
+
 
 ## Summary statistics
 
