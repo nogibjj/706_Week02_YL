@@ -1,5 +1,20 @@
-# 706_Week01_YL
+# 706_Week02_YL
 
-* Week 1: Create a Python GitHub template you use
-for the rest of class (Makefile, GitHub Actions, requirements.txt,
-README.md).
+This repository includes the main tasks for week 2-Pandas Descriptive Statistics:
+
+* A Makefile
+* A Dockerfile
+* GitHub actions
+* Scripts and visualizations calculating the descriptive statistics of the chosen dataset `wine.csv`
+
+## Check format & errors
+
+1. make format
+
+2. make lint
+
+3. make test
+
+## Summary statistics
+
+Sea `report.md` for details.
