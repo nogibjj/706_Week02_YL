@@ -30,7 +30,7 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 3. make test
 
-
+![Alt text](image-3.png)
 
 ## Summary statistics
 
