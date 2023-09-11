@@ -12,3 +12,20 @@ The dataset includes variables for describing the quality of Red Bordeaux wines 
 * Age: age of the wine measured as the number of years stored in a cask.
 * FrancePop: population of France at Year (in thousands).
 
+![Alt text](image.png)
+
+2. Summary of the quantitative variables in the dataset
+
+![Alt text](image-1.png)
+
+3. Descriptive statistics of log price of wine in the dataset
+
+## Visualizations
+
+1. Histogram for log wine price
+
+![Alt text](output.png)
+
+2. Pairplot for all variables
+
+![Alt text](output-1.png)
