@@ -1,4 +1,4 @@
-name: Python template with Github Actions
+name: CICD
 on: [push]
 jobs:
   build:
