@@ -1,3 +1,4 @@
+[![CICD](https://github.com/nogibjj/706_Week02_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week02_YL/actions/workflows/cicd.yml)
 # 706_Week02_YL
 
 This repository includes the main tasks for week 2-Pandas Descriptive Statistics:
